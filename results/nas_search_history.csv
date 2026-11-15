@@ -1,0 +1,19 @@
+trial,generation,feasible,rejection,validation_accuracy_pct,depth,channels,kernels,blocks,activation,resolution,parameters,checkpoint_bytes,median_ms,p95_ms,observed_peak_inference_rss_bytes
+0,0,False,Pre-training measured constraint violation,,4,"[64, 96, 128, 192]","[5, 5, 5, 5]","[""standard"", ""standard"", ""standard"", ""standard""]",hardswish,40,1082890,4366448,0.76085,1.1886949999999998,230481920
+1,0,True,,38.32,2,"[16, 24]","[3, 3]","[""standard"", ""standard""]",relu,32,4218,36720,0.0571,0.068415,218537984
+2,0,True,,45.04,3,"[24, 48, 64]","[3, 3, 3]","[""depthwise"", ""depthwise"", ""depthwise""]",relu6,32,6043,69652,0.23325,0.32056999999999997,222642176
+3,0,True,,47.8,4,"[16, 24, 48, 64]","[3, 5, 3, 5]","[""standard"", ""depthwise"", ""depthwise"", ""depthwise""]",hardswish,24,7986,84008,0.21545,0.36887,222666752
+4,0,True,,43.2,2,"[32, 64]","[3, 3]","[""standard"", ""depthwise""]",hardswish,32,4106,43288,0.13605,0.16166499999999978,221917184
+5,0,True,,46.54,4,"[24, 24, 16, 64]","[3, 3, 5, 5]","[""standard"", ""standard"", ""depthwise"", ""depthwise""]",relu,40,9226,82068,0.2316,0.3072849999999999,223219712
+6,1,True,,48.22,3,"[24, 24, 16]","[3, 3, 5]","[""standard"", ""standard"", ""depthwise""]",relu,24,7162,60908,0.1211,0.1523349999999999,221843456
+7,1,True,,40.94,3,"[16, 24, 48]","[3, 5, 3]","[""standard"", ""depthwise"", ""depthwise""]",hardswish,24,3330,52160,0.15795,0.22363499999999994,221741056
+8,1,True,,46.22,4,"[16, 24, 48, 64]","[3, 5, 3, 5]","[""depthwise"", ""depthwise"", ""depthwise"", ""depthwise""]",hardswish,40,7635,88636,0.30674999999999997,0.4473099999999999,223932416
+9,1,True,,50.48,4,"[24, 24, 16, 64]","[3, 3, 5, 5]","[""standard"", ""standard"", ""depthwise"", ""depthwise""]",relu6,40,9226,82068,0.24359999999999998,0.3927149999999998,223379456
+10,1,True,,46.58,4,"[24, 24, 16, 96]","[3, 3, 5, 5]","[""standard"", ""standard"", ""depthwise"", ""depthwise""]",relu,40,10122,85908,0.23885,0.34607499999999997,223367168
+11,1,True,,51.2,4,"[16, 24, 48, 64]","[3, 5, 3, 5]","[""standard"", ""standard"", ""depthwise"", ""depthwise""]",hardswish,24,16770,112852,0.21615,0.3328949999999999,222830592
+12,2,True,,46.7,3,"[24, 24, 16]","[3, 5, 5]","[""standard"", ""standard"", ""depthwise""]",relu6,40,16378,97772,0.19724999999999998,0.3107399999999996,222101504
+13,2,True,,50.94,4,"[24, 24, 16, 64]","[3, 3, 5, 5]","[""standard"", ""standard"", ""depthwise"", ""depthwise""]",hardswish,40,9226,82176,0.2404,0.33621999999999996,223027200
+14,2,True,,45.18,3,"[16, 24, 48]","[3, 5, 3]","[""standard"", ""standard"", ""depthwise""]",relu,24,12114,81100,0.1588,0.25259499999999996,222220288
+15,2,True,,49.3,4,"[24, 24, 16, 64]","[3, 3, 3, 5]","[""standard"", ""standard"", ""depthwise"", ""depthwise""]",relu6,40,8842,80640,0.24025000000000002,0.38793999999999956,223436800
+16,2,True,,41.92,2,"[16, 24]","[3, 5]","[""standard"", ""standard""]",relu6,24,10362,61400,0.09745000000000001,0.15325499999999997,221306880
+17,2,False,Pre-training measured constraint violation,,4,"[64, 24, 48, 64]","[3, 5, 3, 5]","[""standard"", ""standard"", ""depthwise"", ""depthwise""]",relu6,24,46962,234176,0.26105,0.39713499999999985,223268864

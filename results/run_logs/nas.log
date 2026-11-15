@@ -1,0 +1,140 @@
+C:\Users\right click\Documents\Codex\2026-10-09\ca\work\edge-env\Lib\site-packages\torch\jit\_trace.py:1006: FutureWarning: `torch.jit.trace` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+C:\Users\right click\Documents\Codex\2026-10-09\ca\work\edge-env\Lib\site-packages\torch\jit\_trace.py:1145: FutureWarning: `torch.jit.trace_method` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+C:\Users\right click\Documents\Codex\2026-10-09\ca\work\edge-env\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+NAS CANDIDATE {"trial": 0, "generation": 0, "config": {"depth": 4, "channels": [64, 96, 128, 192], "kernels": [5, 5, 5, 5], "blocks": ["standard", "standard", "standard", "standard"], "activation": "hardswish", "resolution": 40}, "parameters": 1082890, "feasible": false, "rejection": "Pre-training measured constraint violation"}
+C:\Users\right click\Documents\Codex\2026-10-09\ca\work\edge-env\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+{"stage": "nas_trial_01", "epoch": 1, "train_loss": 1.906765376747979, "train_accuracy_pct": 29.148888888888887, "validation_accuracy_pct": 33.24, "seconds": 3.858555000006163}
+{"stage": "nas_trial_01", "epoch": 2, "train_loss": 1.6902852952533298, "train_accuracy_pct": 37.33555555555556, "validation_accuracy_pct": 38.32, "seconds": 3.9145850999993854}
+C:\Users\right click\Documents\Codex\2026-10-09\ca\work\edge-env\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+NAS CANDIDATE {"trial": 1, "generation": 0, "config": {"depth": 2, "channels": [16, 24], "kernels": [3, 3], "blocks": ["standard", "standard"], "activation": "relu", "resolution": 32}, "parameters": 4218, "feasible": true, "rejection": "", "validation_accuracy_pct": 38.32}
+C:\Users\right click\Documents\Codex\2026-10-09\ca\work\edge-env\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+{"stage": "nas_trial_02", "epoch": 1, "train_loss": 1.8630329597897, "train_accuracy_pct": 30.677777777777777, "validation_accuracy_pct": 37.38, "seconds": 9.13045389999752}
+{"stage": "nas_trial_02", "epoch": 2, "train_loss": 1.547721964433458, "train_accuracy_pct": 43.34, "validation_accuracy_pct": 45.04, "seconds": 9.838035499997204}
+C:\Users\right click\Documents\Codex\2026-10-09\ca\work\edge-env\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+NAS CANDIDATE {"trial": 2, "generation": 0, "config": {"depth": 3, "channels": [24, 48, 64], "kernels": [3, 3, 3], "blocks": ["depthwise", "depthwise", "depthwise"], "activation": "relu6", "resolution": 32}, "parameters": 6043, "feasible": true, "rejection": "", "validation_accuracy_pct": 45.04}
+C:\Users\right click\Documents\Codex\2026-10-09\ca\work\edge-env\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+{"stage": "nas_trial_03", "epoch": 1, "train_loss": 1.7991898009194267, "train_accuracy_pct": 32.60666666666667, "validation_accuracy_pct": 43.1, "seconds": 3.8851654999962193}
+{"stage": "nas_trial_03", "epoch": 2, "train_loss": 1.4713917383829753, "train_accuracy_pct": 45.593333333333334, "validation_accuracy_pct": 47.8, "seconds": 3.761418299996876}
+C:\Users\right click\Documents\Codex\2026-10-09\ca\work\edge-env\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+NAS CANDIDATE {"trial": 3, "generation": 0, "config": {"depth": 4, "channels": [16, 24, 48, 64], "kernels": [3, 5, 3, 5], "blocks": ["standard", "depthwise", "depthwise", "depthwise"], "activation": "hardswish", "resolution": 24}, "parameters": 7986, "feasible": true, "rejection": "", "validation_accuracy_pct": 47.8}
+C:\Users\right click\Documents\Codex\2026-10-09\ca\work\edge-env\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+{"stage": "nas_trial_04", "epoch": 1, "train_loss": 1.8848039476818508, "train_accuracy_pct": 30.468888888888888, "validation_accuracy_pct": 35.28, "seconds": 10.92672489999677}
+{"stage": "nas_trial_04", "epoch": 2, "train_loss": 1.621378452067905, "train_accuracy_pct": 41.07333333333333, "validation_accuracy_pct": 43.2, "seconds": 11.104730899998685}
+C:\Users\right click\Documents\Codex\2026-10-09\ca\work\edge-env\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+NAS CANDIDATE {"trial": 4, "generation": 0, "config": {"depth": 2, "channels": [32, 64], "kernels": [3, 3], "blocks": ["standard", "depthwise"], "activation": "hardswish", "resolution": 32}, "parameters": 4106, "feasible": true, "rejection": "", "validation_accuracy_pct": 43.2}
+C:\Users\right click\Documents\Codex\2026-10-09\ca\work\edge-env\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+{"stage": "nas_trial_05", "epoch": 1, "train_loss": 1.7232890742407905, "train_accuracy_pct": 35.70666666666666, "validation_accuracy_pct": 38.12, "seconds": 12.097777199996926}
+{"stage": "nas_trial_05", "epoch": 2, "train_loss": 1.3920023147371081, "train_accuracy_pct": 49.13111111111111, "validation_accuracy_pct": 46.54, "seconds": 12.010632600002282}
+C:\Users\right click\Documents\Codex\2026-10-09\ca\work\edge-env\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+NAS CANDIDATE {"trial": 5, "generation": 0, "config": {"depth": 4, "channels": [24, 24, 16, 64], "kernels": [3, 3, 5, 5], "blocks": ["standard", "standard", "depthwise", "depthwise"], "activation": "relu", "resolution": 40}, "parameters": 9226, "feasible": true, "rejection": "", "validation_accuracy_pct": 46.54}
+C:\Users\right click\Documents\Codex\2026-10-09\ca\work\edge-env\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+{"stage": "nas_trial_06", "epoch": 1, "train_loss": 1.8248251381132339, "train_accuracy_pct": 32.08222222222222, "validation_accuracy_pct": 39.28, "seconds": 4.020443100002012}
+{"stage": "nas_trial_06", "epoch": 2, "train_loss": 1.4803476351420084, "train_accuracy_pct": 45.715555555555554, "validation_accuracy_pct": 48.22, "seconds": 3.956390099992859}
+C:\Users\right click\Documents\Codex\2026-10-09\ca\work\edge-env\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+NAS CANDIDATE {"trial": 6, "generation": 1, "config": {"depth": 3, "channels": [24, 24, 16], "kernels": [3, 3, 5], "blocks": ["standard", "standard", "depthwise"], "activation": "relu", "resolution": 24}, "parameters": 7162, "feasible": true, "rejection": "", "validation_accuracy_pct": 48.22}
+C:\Users\right click\Documents\Codex\2026-10-09\ca\work\edge-env\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+{"stage": "nas_trial_07", "epoch": 1, "train_loss": 1.8481702376471625, "train_accuracy_pct": 30.948888888888888, "validation_accuracy_pct": 37.98, "seconds": 3.1552442999964114}
+{"stage": "nas_trial_07", "epoch": 2, "train_loss": 1.5958375587463378, "train_accuracy_pct": 40.23111111111111, "validation_accuracy_pct": 40.94, "seconds": 3.1749845999947865}
+C:\Users\right click\Documents\Codex\2026-10-09\ca\work\edge-env\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+NAS CANDIDATE {"trial": 7, "generation": 1, "config": {"depth": 3, "channels": [16, 24, 48], "kernels": [3, 5, 3], "blocks": ["standard", "depthwise", "depthwise"], "activation": "hardswish", "resolution": 24}, "parameters": 3330, "feasible": true, "rejection": "", "validation_accuracy_pct": 40.94}
+C:\Users\right click\Documents\Codex\2026-10-09\ca\work\edge-env\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+{"stage": "nas_trial_08", "epoch": 1, "train_loss": 1.8271285422854953, "train_accuracy_pct": 30.906666666666666, "validation_accuracy_pct": 40.16, "seconds": 12.564916000002995}
+{"stage": "nas_trial_08", "epoch": 2, "train_loss": 1.4923802049001058, "train_accuracy_pct": 45.095555555555556, "validation_accuracy_pct": 46.22, "seconds": 12.254385900007037}
+C:\Users\right click\Documents\Codex\2026-10-09\ca\work\edge-env\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+NAS CANDIDATE {"trial": 8, "generation": 1, "config": {"depth": 4, "channels": [16, 24, 48, 64], "kernels": [3, 5, 3, 5], "blocks": ["depthwise", "depthwise", "depthwise", "depthwise"], "activation": "hardswish", "resolution": 40}, "parameters": 7635, "feasible": true, "rejection": "", "validation_accuracy_pct": 46.22}
+C:\Users\right click\Documents\Codex\2026-10-09\ca\work\edge-env\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+{"stage": "nas_trial_09", "epoch": 1, "train_loss": 1.7340532282511394, "train_accuracy_pct": 34.846666666666664, "validation_accuracy_pct": 40.84, "seconds": 12.895228000001225}
+{"stage": "nas_trial_09", "epoch": 2, "train_loss": 1.4017765026516384, "train_accuracy_pct": 48.44444444444444, "validation_accuracy_pct": 50.48, "seconds": 12.654473199996573}
+C:\Users\right click\Documents\Codex\2026-10-09\ca\work\edge-env\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+NAS CANDIDATE {"trial": 9, "generation": 1, "config": {"depth": 4, "channels": [24, 24, 16, 64], "kernels": [3, 3, 5, 5], "blocks": ["standard", "standard", "depthwise", "depthwise"], "activation": "relu6", "resolution": 40}, "parameters": 9226, "feasible": true, "rejection": "", "validation_accuracy_pct": 50.48}
+C:\Users\right click\Documents\Codex\2026-10-09\ca\work\edge-env\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+{"stage": "nas_trial_10", "epoch": 1, "train_loss": 1.729216111225552, "train_accuracy_pct": 35.05777777777778, "validation_accuracy_pct": 43.52, "seconds": 12.907500900000741}
+{"stage": "nas_trial_10", "epoch": 2, "train_loss": 1.4128563350253636, "train_accuracy_pct": 47.95333333333333, "validation_accuracy_pct": 46.58, "seconds": 12.22127609999734}
+C:\Users\right click\Documents\Codex\2026-10-09\ca\work\edge-env\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+NAS CANDIDATE {"trial": 10, "generation": 1, "config": {"depth": 4, "channels": [24, 24, 16, 96], "kernels": [3, 3, 5, 5], "blocks": ["standard", "standard", "depthwise", "depthwise"], "activation": "relu", "resolution": 40}, "parameters": 10122, "feasible": true, "rejection": "", "validation_accuracy_pct": 46.58}
+C:\Users\right click\Documents\Codex\2026-10-09\ca\work\edge-env\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+{"stage": "nas_trial_11", "epoch": 1, "train_loss": 1.7030502941131591, "train_accuracy_pct": 36.39555555555555, "validation_accuracy_pct": 45.6, "seconds": 3.835693499997433}
+{"stage": "nas_trial_11", "epoch": 2, "train_loss": 1.3818120450761584, "train_accuracy_pct": 49.464444444444446, "validation_accuracy_pct": 51.2, "seconds": 3.87174899999809}
+C:\Users\right click\Documents\Codex\2026-10-09\ca\work\edge-env\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+NAS CANDIDATE {"trial": 11, "generation": 1, "config": {"depth": 4, "channels": [16, 24, 48, 64], "kernels": [3, 5, 3, 5], "blocks": ["standard", "standard", "depthwise", "depthwise"], "activation": "hardswish", "resolution": 24}, "parameters": 16770, "feasible": true, "rejection": "", "validation_accuracy_pct": 51.2}
+C:\Users\right click\Documents\Codex\2026-10-09\ca\work\edge-env\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+{"stage": "nas_trial_12", "epoch": 1, "train_loss": 1.8216982560051813, "train_accuracy_pct": 31.86888888888889, "validation_accuracy_pct": 38.12, "seconds": 14.040264999995998}
+{"stage": "nas_trial_12", "epoch": 2, "train_loss": 1.5139912856419881, "train_accuracy_pct": 44.28888888888889, "validation_accuracy_pct": 46.7, "seconds": 14.082447900000261}
+C:\Users\right click\Documents\Codex\2026-10-09\ca\work\edge-env\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+NAS CANDIDATE {"trial": 12, "generation": 2, "config": {"depth": 3, "channels": [24, 24, 16], "kernels": [3, 5, 5], "blocks": ["standard", "standard", "depthwise"], "activation": "relu6", "resolution": 40}, "parameters": 16378, "feasible": true, "rejection": "", "validation_accuracy_pct": 46.7}
+C:\Users\right click\Documents\Codex\2026-10-09\ca\work\edge-env\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+{"stage": "nas_trial_13", "epoch": 1, "train_loss": 1.7435387821833292, "train_accuracy_pct": 34.55777777777778, "validation_accuracy_pct": 44.64, "seconds": 12.707091199998104}
+{"stage": "nas_trial_13", "epoch": 2, "train_loss": 1.399284670024448, "train_accuracy_pct": 48.544444444444444, "validation_accuracy_pct": 50.94, "seconds": 12.954265000000305}
+C:\Users\right click\Documents\Codex\2026-10-09\ca\work\edge-env\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+NAS CANDIDATE {"trial": 13, "generation": 2, "config": {"depth": 4, "channels": [24, 24, 16, 64], "kernels": [3, 3, 5, 5], "blocks": ["standard", "standard", "depthwise", "depthwise"], "activation": "hardswish", "resolution": 40}, "parameters": 9226, "feasible": true, "rejection": "", "validation_accuracy_pct": 50.94}
+C:\Users\right click\Documents\Codex\2026-10-09\ca\work\edge-env\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+{"stage": "nas_trial_14", "epoch": 1, "train_loss": 1.7677521181106568, "train_accuracy_pct": 34.397777777777776, "validation_accuracy_pct": 41.42, "seconds": 3.020445699999982}
+{"stage": "nas_trial_14", "epoch": 2, "train_loss": 1.473213560740153, "train_accuracy_pct": 45.977777777777774, "validation_accuracy_pct": 45.18, "seconds": 3.0034768999976222}
+C:\Users\right click\Documents\Codex\2026-10-09\ca\work\edge-env\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+NAS CANDIDATE {"trial": 14, "generation": 2, "config": {"depth": 3, "channels": [16, 24, 48], "kernels": [3, 5, 3], "blocks": ["standard", "standard", "depthwise"], "activation": "relu", "resolution": 24}, "parameters": 12114, "feasible": true, "rejection": "", "validation_accuracy_pct": 45.18}
+C:\Users\right click\Documents\Codex\2026-10-09\ca\work\edge-env\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+{"stage": "nas_trial_15", "epoch": 1, "train_loss": 1.741470376311408, "train_accuracy_pct": 34.22222222222222, "validation_accuracy_pct": 40.76, "seconds": 11.98189440000715}
+{"stage": "nas_trial_15", "epoch": 2, "train_loss": 1.4324337410820855, "train_accuracy_pct": 46.775555555555556, "validation_accuracy_pct": 49.3, "seconds": 12.060962199997448}
+C:\Users\right click\Documents\Codex\2026-10-09\ca\work\edge-env\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+NAS CANDIDATE {"trial": 15, "generation": 2, "config": {"depth": 4, "channels": [24, 24, 16, 64], "kernels": [3, 3, 3, 5], "blocks": ["standard", "standard", "depthwise", "depthwise"], "activation": "relu6", "resolution": 40}, "parameters": 8842, "feasible": true, "rejection": "", "validation_accuracy_pct": 49.3}
+C:\Users\right click\Documents\Codex\2026-10-09\ca\work\edge-env\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+{"stage": "nas_trial_16", "epoch": 1, "train_loss": 1.869311538802253, "train_accuracy_pct": 30.615555555555556, "validation_accuracy_pct": 37.86, "seconds": 2.6430847000010544}
+{"stage": "nas_trial_16", "epoch": 2, "train_loss": 1.6206667400360106, "train_accuracy_pct": 40.32222222222222, "validation_accuracy_pct": 41.92, "seconds": 2.69604700000491}
+C:\Users\right click\Documents\Codex\2026-10-09\ca\work\edge-env\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+NAS CANDIDATE {"trial": 16, "generation": 2, "config": {"depth": 2, "channels": [16, 24], "kernels": [3, 5], "blocks": ["standard", "standard"], "activation": "relu6", "resolution": 24}, "parameters": 10362, "feasible": true, "rejection": "", "validation_accuracy_pct": 41.92}
+C:\Users\right click\Documents\Codex\2026-10-09\ca\work\edge-env\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+NAS CANDIDATE {"trial": 17, "generation": 2, "config": {"depth": 4, "channels": [64, 24, 48, 64], "kernels": [3, 5, 3, 5], "blocks": ["standard", "standard", "depthwise", "depthwise"], "activation": "relu6", "resolution": 24}, "parameters": 46962, "feasible": false, "rejection": "Pre-training measured constraint violation"}
+{"stage": "nas_final_from_scratch", "epoch": 1, "train_loss": 1.7340600186241997, "train_accuracy_pct": 35.48444444444444, "validation_accuracy_pct": 42.36, "seconds": 3.909962700003234}
+{"stage": "nas_final_from_scratch", "epoch": 2, "train_loss": 1.4130446565416124, "train_accuracy_pct": 48.18, "validation_accuracy_pct": 50.98, "seconds": 3.8192441999999573}
+{"stage": "nas_final_from_scratch", "epoch": 3, "train_loss": 1.269869086986118, "train_accuracy_pct": 53.68, "validation_accuracy_pct": 53.06, "seconds": 3.8531080999964615}
+{"stage": "nas_final_from_scratch", "epoch": 4, "train_loss": 1.1797605990303888, "train_accuracy_pct": 57.233333333333334, "validation_accuracy_pct": 58.38, "seconds": 3.87944029999926}
+{"stage": "nas_final_from_scratch", "epoch": 5, "train_loss": 1.1098032895618015, "train_accuracy_pct": 60.12444444444444, "validation_accuracy_pct": 58.74, "seconds": 3.8487807999990764}
+{"stage": "nas_final_from_scratch", "epoch": 6, "train_loss": 1.0574000611835055, "train_accuracy_pct": 62.04222222222222, "validation_accuracy_pct": 62.34, "seconds": 3.8857327999940026}
+{"stage": "nas_final_from_scratch", "epoch": 7, "train_loss": 1.0116463780297174, "train_accuracy_pct": 63.88, "validation_accuracy_pct": 64.54, "seconds": 3.9012881000016932}
+{"stage": "nas_final_from_scratch", "epoch": 8, "train_loss": 0.9753010851860047, "train_accuracy_pct": 65.24666666666667, "validation_accuracy_pct": 62.92, "seconds": 3.878427700001339}
+{"stage": "nas_final_from_scratch", "epoch": 9, "train_loss": 0.9412605240503947, "train_accuracy_pct": 66.46222222222222, "validation_accuracy_pct": 65.84, "seconds": 3.85046589999547}
+{"stage": "nas_final_from_scratch", "epoch": 10, "train_loss": 0.915206489806705, "train_accuracy_pct": 67.50888888888889, "validation_accuracy_pct": 66.62, "seconds": 3.851780500001041}
+{"stage": "nas_final_from_scratch", "epoch": 11, "train_loss": 0.89346602329678, "train_accuracy_pct": 68.06, "validation_accuracy_pct": 67.0, "seconds": 3.9361395000014454}
+{"stage": "nas_final_from_scratch", "epoch": 12, "train_loss": 0.8760722411261664, "train_accuracy_pct": 68.88666666666667, "validation_accuracy_pct": 67.62, "seconds": 3.8337647000007564}
+{"stage": "nas_final_from_scratch", "epoch": 13, "train_loss": 0.8532117244084676, "train_accuracy_pct": 69.69111111111111, "validation_accuracy_pct": 67.74, "seconds": 3.825958500005072}
+{"stage": "nas_final_from_scratch", "epoch": 14, "train_loss": 0.843215054681566, "train_accuracy_pct": 70.10666666666667, "validation_accuracy_pct": 68.7, "seconds": 3.8628724000009242}
+{"stage": "nas_final_from_scratch", "epoch": 15, "train_loss": 0.838657312795851, "train_accuracy_pct": 70.2688888888889, "validation_accuracy_pct": 68.68, "seconds": 3.9499532999980147}
+C:\Users\right click\Documents\Codex\2026-10-09\ca\work\edge-env\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+NAS COMPLETE 68.23 parameters 16770 latency 0.2108 size 112960

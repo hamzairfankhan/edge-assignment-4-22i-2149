@@ -16,6 +16,10 @@ class Classifier(nn.Module):
         elif name=='squeezenet':
             self.network=models.squeezenet1_1(weights=models.SqueezeNet1_1_Weights.IMAGENET1K_V1 if pretrained else None)
             self.network.classifier[1]=nn.Conv2d(512,100,1); self.network.num_classes=100; self.feature_dim=512
+            # CIFAR-100 raw-logit head: avoid clipping every class to zero.
+            nn.init.normal_(self.network.classifier[1].weight,mean=0.,std=.01)
+            nn.init.zeros_(self.network.classifier[1].bias)
+            self.network.classifier[2]=nn.Identity()
         elif name=='efficientnet_lite0':
             self.network=timm.create_model('tf_efficientnet_lite0',pretrained=pretrained,num_classes=100)
             self.feature_dim=self.network.num_features

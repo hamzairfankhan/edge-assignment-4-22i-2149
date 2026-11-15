@@ -37,7 +37,12 @@ def evaluate(m,x,y):
     p=torch.cat(pp); return dict(accuracy_pct=100*int((p==y).sum())/len(y),correct=int((p==y).sum()),test_count=len(y),loss=loss/len(y)),p.cpu().tolist()
 def train(model,x,y,xv,yv,epochs,label,loss_fn=None,cache=None):
     params=list(model.parameters())+(list(loss_fn.parameters()) if loss_fn is not None else [])
-    opt=torch.optim.SGD(params,lr=.01,momentum=.9,weight_decay=1e-4)
+    if model.name=='squeezenet':
+        # The unnormalized Fire backbone needs a gentler fine-tuning rate.
+        groups=[dict(params=model.network.features.parameters(),lr=.0001),dict(params=model.network.classifier.parameters(),lr=.001)]
+        if loss_fn is not None:groups.append(dict(params=loss_fn.parameters(),lr=.001))
+        opt=torch.optim.SGD(groups,lr=.001,momentum=.9,weight_decay=1e-4)
+    else:opt=torch.optim.SGD(params,lr=.01,momentum=.9,weight_decay=1e-4)
     scheduler=torch.optim.lr_scheduler.CosineAnnealingLR(opt,epochs)
     scaler=torch.amp.GradScaler('cuda',enabled=x.is_cuda)
     history=[]; best=-1.; best_state=None; best_adapter=None

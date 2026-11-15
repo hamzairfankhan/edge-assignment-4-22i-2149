@@ -2,6 +2,7 @@
 *.pt binary
 *.pth binary
 *.onnx binary
+*.npy binary
 *.jpg binary
 *.log binary
 *.py text eol=lf

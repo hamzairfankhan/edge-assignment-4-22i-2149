@@ -1,0 +1,33 @@
+{
+  "config": {
+    "depth": 4,
+    "channels": [
+      16,
+      24,
+      48,
+      64
+    ],
+    "kernels": [
+      3,
+      5,
+      3,
+      5
+    ],
+    "blocks": [
+      "standard",
+      "standard",
+      "depthwise",
+      "depthwise"
+    ],
+    "activation": "hardswish",
+    "resolution": 24
+  },
+  "selected_trial": 11,
+  "search_validation_accuracy_pct": 51.2,
+  "constraints": {
+    "max_median_latency_ms": 1.2,
+    "max_checkpoint_bytes": 184320
+  },
+  "selection": "Highest validation accuracy among measured feasible candidates; no test-set selection",
+  "fresh_retraining_seed": 2149
+}
