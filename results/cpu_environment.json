@@ -1,0 +1,11 @@
+{
+  "torch": "2.14.1+cpu",
+  "python": "3.12.7 (tags/v3.12.7:0b05ead, Oct  1 2024, 03:06:41) [MSC v.1941 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+  "threads": 4,
+  "warmup": 30,
+  "latency_repeats": 200,
+  "memory_inference_runs": 100,
+  "memory_sampling_seconds": 0.001
+}

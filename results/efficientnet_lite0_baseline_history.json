@@ -8,7 +8,7 @@
     "feature_loss": 0.0,
     "train_accuracy_pct": 33.48888888888889,
     "validation_accuracy_pct": 51.54,
-    "seconds": 19.582376160999956
+    "seconds": 18.73630940700002
   },
   {
     "stage": "efficientnet_lite0_baseline",
@@ -19,7 +19,7 @@
     "feature_loss": 0.0,
     "train_accuracy_pct": 59.60444444444445,
     "validation_accuracy_pct": 60.64,
-    "seconds": 19.843241919999855
+    "seconds": 18.669492628999933
   },
   {
     "stage": "efficientnet_lite0_baseline",
@@ -30,7 +30,7 @@
     "feature_loss": 0.0,
     "train_accuracy_pct": 69.79333333333334,
     "validation_accuracy_pct": 63.08,
-    "seconds": 19.64348873599988
+    "seconds": 18.83528142399996
   },
   {
     "stage": "efficientnet_lite0_baseline",
@@ -41,7 +41,7 @@
     "feature_loss": 0.0,
     "train_accuracy_pct": 76.45333333333333,
     "validation_accuracy_pct": 66.26,
-    "seconds": 19.401324365999926
+    "seconds": 18.69046965099983
   },
   {
     "stage": "efficientnet_lite0_baseline",
@@ -52,7 +52,7 @@
     "feature_loss": 0.0,
     "train_accuracy_pct": 82.2688888888889,
     "validation_accuracy_pct": 67.32,
-    "seconds": 19.59762931200021
+    "seconds": 18.860354800000096
   },
   {
     "stage": "efficientnet_lite0_baseline",
@@ -63,7 +63,7 @@
     "feature_loss": 0.0,
     "train_accuracy_pct": 86.65555555555555,
     "validation_accuracy_pct": 68.38,
-    "seconds": 19.522183454000015
+    "seconds": 18.702628655999888
   },
   {
     "stage": "efficientnet_lite0_baseline",
@@ -74,7 +74,7 @@
     "feature_loss": 0.0,
     "train_accuracy_pct": 90.36,
     "validation_accuracy_pct": 68.84,
-    "seconds": 19.676188877999948
+    "seconds": 18.824990023000055
   },
   {
     "stage": "efficientnet_lite0_baseline",
@@ -85,7 +85,7 @@
     "feature_loss": 0.0,
     "train_accuracy_pct": 92.73777777777778,
     "validation_accuracy_pct": 69.62,
-    "seconds": 19.42192524799998
+    "seconds": 18.683054525999978
   },
   {
     "stage": "efficientnet_lite0_baseline",
@@ -96,7 +96,7 @@
     "feature_loss": 0.0,
     "train_accuracy_pct": 94.03777777777778,
     "validation_accuracy_pct": 69.06,
-    "seconds": 19.574215228000185
+    "seconds": 18.82585085400001
   },
   {
     "stage": "efficientnet_lite0_baseline",
@@ -107,6 +107,6 @@
     "feature_loss": 0.0,
     "train_accuracy_pct": 94.67111111111112,
     "validation_accuracy_pct": 68.98,
-    "seconds": 19.433356545999914
+    "seconds": 18.68535569200003
   }
 ]

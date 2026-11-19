@@ -8,7 +8,7 @@
     "feature_loss": 1.4891208740870159,
     "train_accuracy_pct": 39.284444444444446,
     "validation_accuracy_pct": 54.82,
-    "seconds": 19.962486232000174
+    "seconds": 19.227719995000143
   },
   {
     "stage": "efficientnet_lite0_kd",
@@ -19,7 +19,7 @@
     "feature_loss": 1.1445855576833088,
     "train_accuracy_pct": 63.526666666666664,
     "validation_accuracy_pct": 63.44,
-    "seconds": 20.050499950999892
+    "seconds": 19.15799098399998
   },
   {
     "stage": "efficientnet_lite0_kd",
@@ -30,7 +30,7 @@
     "feature_loss": 1.0161903965102301,
     "train_accuracy_pct": 72.22666666666667,
     "validation_accuracy_pct": 67.72,
-    "seconds": 19.852394237
+    "seconds": 19.2398003159999
   },
   {
     "stage": "efficientnet_lite0_kd",
@@ -41,7 +41,7 @@
     "feature_loss": 0.9372004730860393,
     "train_accuracy_pct": 78.28888888888889,
     "validation_accuracy_pct": 68.76,
-    "seconds": 20.066486363999957
+    "seconds": 19.104673090000006
   },
   {
     "stage": "efficientnet_lite0_kd",
@@ -52,7 +52,7 @@
     "feature_loss": 0.8849374865425957,
     "train_accuracy_pct": 83.40444444444445,
     "validation_accuracy_pct": 70.92,
-    "seconds": 19.793978616999993
+    "seconds": 19.266762123000035
   },
   {
     "stage": "efficientnet_lite0_kd",
@@ -63,7 +63,7 @@
     "feature_loss": 0.8465534835497538,
     "train_accuracy_pct": 87.53555555555556,
     "validation_accuracy_pct": 71.96,
-    "seconds": 20.002380615999982
+    "seconds": 19.628681859999915
   },
   {
     "stage": "efficientnet_lite0_kd",
@@ -74,7 +74,7 @@
     "feature_loss": 0.8195599929915535,
     "train_accuracy_pct": 90.88,
     "validation_accuracy_pct": 72.74,
-    "seconds": 19.896518518999983
+    "seconds": 19.5012926280001
   },
   {
     "stage": "efficientnet_lite0_kd",
@@ -85,7 +85,7 @@
     "feature_loss": 0.8034276726298862,
     "train_accuracy_pct": 92.96444444444444,
     "validation_accuracy_pct": 73.56,
-    "seconds": 19.91813067499993
+    "seconds": 19.205919201999905
   },
   {
     "stage": "efficientnet_lite0_kd",
@@ -96,7 +96,7 @@
     "feature_loss": 0.7935679255591499,
     "train_accuracy_pct": 94.22,
     "validation_accuracy_pct": 73.44,
-    "seconds": 19.967953324000064
+    "seconds": 19.12007282500008
   },
   {
     "stage": "efficientnet_lite0_kd",
@@ -107,6 +107,6 @@
     "feature_loss": 0.7900868605613709,
     "train_accuracy_pct": 94.72222222222223,
     "validation_accuracy_pct": 73.68,
-    "seconds": 19.839321202000065
+    "seconds": 19.176171662000115
   }
 ]

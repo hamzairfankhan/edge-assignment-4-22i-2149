@@ -5,6 +5,12 @@
 Question 1: CIFAR-100 teacher/student knowledge distillation.
 Question 2: measured, resource-constrained evolutionary NAS on CIFAR-10.
 
+The teacher and two baseline checkpoint files were retained from November 15.
+Four model files were restored on November 19 using the same saved teacher, split,
+seed and epoch budget after the earlier Colab runtime expired before transfer.
+`recover_missing.py` documents that restoration; the report and final checks use
+the final model files and results. The November 15 numerical record is preserved.
+
 ## Install
 
 Python 3.12 was used on Windows; the actual Colab training environment is recorded

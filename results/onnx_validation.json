@@ -1,0 +1,65 @@
+[
+  {
+    "model": "mobilenet_v2_baseline",
+    "dataset": "CIFAR-100",
+    "test_count": 10000,
+    "correct": 7327,
+    "accuracy_pct": 73.27,
+    "max_absolute_logit_difference": 4.9591064453125e-05,
+    "onnx_bytes": 9383745
+  },
+  {
+    "model": "mobilenet_v2_kd",
+    "dataset": "CIFAR-100",
+    "test_count": 10000,
+    "correct": 7456,
+    "accuracy_pct": 74.56,
+    "max_absolute_logit_difference": 6.29425048828125e-05,
+    "onnx_bytes": 9383745
+  },
+  {
+    "model": "squeezenet_baseline",
+    "dataset": "CIFAR-100",
+    "test_count": 10000,
+    "correct": 5593,
+    "accuracy_pct": 55.93,
+    "max_absolute_logit_difference": 1.811981201171875e-05,
+    "onnx_bytes": 3114007
+  },
+  {
+    "model": "squeezenet_kd",
+    "dataset": "CIFAR-100",
+    "test_count": 10000,
+    "correct": 5710,
+    "accuracy_pct": 57.1,
+    "max_absolute_logit_difference": 2.193450927734375e-05,
+    "onnx_bytes": 3114007
+  },
+  {
+    "model": "efficientnet_lite0_baseline",
+    "dataset": "CIFAR-100",
+    "test_count": 10000,
+    "correct": 6933,
+    "accuracy_pct": 69.33,
+    "max_absolute_logit_difference": 3.933906555175781e-05,
+    "onnx_bytes": 14030005
+  },
+  {
+    "model": "efficientnet_lite0_kd",
+    "dataset": "CIFAR-100",
+    "test_count": 10000,
+    "correct": 7409,
+    "accuracy_pct": 74.09,
+    "max_absolute_logit_difference": 4.00543212890625e-05,
+    "onnx_bytes": 14030005
+  },
+  {
+    "model": "nas_best",
+    "dataset": "CIFAR-10",
+    "test_count": 10000,
+    "correct": 6823,
+    "accuracy_pct": 68.23,
+    "max_absolute_logit_difference": 6.67572021484375e-06,
+    "onnx_bytes": 69161
+  }
+]

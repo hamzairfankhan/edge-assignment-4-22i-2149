@@ -8,7 +8,7 @@
     "feature_loss": 1.9246513526068794,
     "train_accuracy_pct": 36.92666666666667,
     "validation_accuracy_pct": 47.78,
-    "seconds": 6.319878466000091
+    "seconds": 6.512541080999995
   },
   {
     "stage": "squeezenet_kd",
@@ -19,7 +19,7 @@
     "feature_loss": 1.777765133137173,
     "train_accuracy_pct": 48.64222222222222,
     "validation_accuracy_pct": 51.06,
-    "seconds": 6.579425416000049
+    "seconds": 5.941207441000074
   },
   {
     "stage": "squeezenet_kd",
@@ -30,7 +30,7 @@
     "feature_loss": 1.67152758647071,
     "train_accuracy_pct": 51.644444444444446,
     "validation_accuracy_pct": 52.84,
-    "seconds": 7.309033876000058
+    "seconds": 6.428203380000014
   },
   {
     "stage": "squeezenet_kd",
@@ -41,7 +41,7 @@
     "feature_loss": 1.6049064965354072,
     "train_accuracy_pct": 53.977777777777774,
     "validation_accuracy_pct": 53.72,
-    "seconds": 6.555975360000048
+    "seconds": 5.97437040300008
   },
   {
     "stage": "squeezenet_kd",
@@ -52,7 +52,7 @@
     "feature_loss": 1.5617934566285876,
     "train_accuracy_pct": 55.224444444444444,
     "validation_accuracy_pct": 55.26,
-    "seconds": 6.151724828999932
+    "seconds": 6.416728020999926
   },
   {
     "stage": "squeezenet_kd",
@@ -63,7 +63,7 @@
     "feature_loss": 1.5335152542326185,
     "train_accuracy_pct": 56.9,
     "validation_accuracy_pct": 55.48,
-    "seconds": 6.719722256000068
+    "seconds": 5.943385423999985
   },
   {
     "stage": "squeezenet_kd",
@@ -74,7 +74,7 @@
     "feature_loss": 1.5152057355456883,
     "train_accuracy_pct": 57.62888888888889,
     "validation_accuracy_pct": 56.4,
-    "seconds": 6.0344145199999275
+    "seconds": 6.440307484999948
   },
   {
     "stage": "squeezenet_kd",
@@ -85,7 +85,7 @@
     "feature_loss": 1.5049270532184178,
     "train_accuracy_pct": 58.84444444444444,
     "validation_accuracy_pct": 56.8,
-    "seconds": 6.90280963500004
+    "seconds": 6.001814557999978
   },
   {
     "stage": "squeezenet_kd",
@@ -96,7 +96,7 @@
     "feature_loss": 1.4984295623355441,
     "train_accuracy_pct": 59.16,
     "validation_accuracy_pct": 57.18,
-    "seconds": 6.030916695999849
+    "seconds": 6.442092400999968
   },
   {
     "stage": "squeezenet_kd",
@@ -107,6 +107,6 @@
     "feature_loss": 1.4966139560699463,
     "train_accuracy_pct": 59.208888888888886,
     "validation_accuracy_pct": 57.18,
-    "seconds": 6.832994426999903
+    "seconds": 5.943444500000055
   }
 ]
