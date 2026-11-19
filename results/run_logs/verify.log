@@ -1,0 +1,49 @@
+C:\Users\right click\Documents\Codex\2026-10-09\ca\work\edge-env\Lib\site-packages\torch\jit\_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+{
+  "status": "PASS",
+  "checks": [
+    "mobilenet_v2_baseline: eager/TorchScript reload, test predictions, accuracy, latency samples and full-test ONNX validation pass",
+    "mobilenet_v2_kd: eager/TorchScript reload, test predictions, accuracy, latency samples and full-test ONNX validation pass",
+    "squeezenet_baseline: eager/TorchScript reload, test predictions, accuracy, latency samples and full-test ONNX validation pass",
+    "squeezenet_kd: eager/TorchScript reload, test predictions, accuracy, latency samples and full-test ONNX validation pass",
+    "efficientnet_lite0_baseline: eager/TorchScript reload, test predictions, accuracy, latency samples and full-test ONNX validation pass",
+    "efficientnet_lite0_kd: eager/TorchScript reload, test predictions, accuracy, latency samples and full-test ONNX validation pass",
+    "nas_best: eager/TorchScript reload, test predictions, accuracy, latency samples and full-test ONNX validation pass",
+    "All seven training checkpoint SHA-256 hashes match the actual Colab manifest",
+    "Teacher is the standard 23,712,932-parameter ResNet-50 with a 100-class head",
+    "Six distinct student checkpoints: hard-label baselines and KD checkpoints with training-only adapters",
+    "All Colab test prediction counts agree with saved summaries",
+    "NAS selects the highest-validation feasible candidate; every rejection follows measured limits",
+    "Selected NAS architecture is freshly retrained for 15 epochs and meets final measured limits"
+  ],
+  "model_sha256": {
+    "models/efficientnet_lite0_baseline.onnx": "a0042f3f08f280104107bde76ff18e188ebc91a3068298ef093fdecaca3fa679",
+    "models/efficientnet_lite0_baseline.pt": "45cd04bc18a0df798cbf05e4c4e0bb4664429674cd99f1b5adae9cb61aee0bd3",
+    "models/efficientnet_lite0_baseline.pth": "4e396174d8f64c00e09f9c8344e949f8495565fca21e58051085c15e82218fab",
+    "models/efficientnet_lite0_kd.onnx": "78060b7a5d92e0f8390591a06483971cfa1d6d29ab353442ea109efe75c7ae47",
+    "models/efficientnet_lite0_kd.pt": "685e88c7fe6b769d01f88a4d51542e70d81c35a397029b6fe1e4a65a4bf6508d",
+    "models/efficientnet_lite0_kd.pth": "a6de5d9460fd4198446a78eeb58c70f9828222887d3bbe9eabffb4e13f88ca50",
+    "models/mobilenet_v2_baseline.onnx": "41b62ec05b84c111c3e129c78b169b72d28867b15345a6cae1663ae3e2334e72",
+    "models/mobilenet_v2_baseline.pt": "dda566d3090e60a003d2ef5b0f96fcd58b109256414ebde5ecac36d2daa65ac7",
+    "models/mobilenet_v2_baseline.pth": "ce3d9040c5c0cf6dc11c5979f0338447ee93464a7dbd511419c393f8d7a2d1c7",
+    "models/mobilenet_v2_kd.onnx": "8c6fd37ba20fd38ad9e8434e055700fcdc3c2da4e06489c104499a1ff0383e03",
+    "models/mobilenet_v2_kd.pt": "07f0365059d686c8e3e256d09ab5861b2819990f2ae502ad60487a9c0d0a5034",
+    "models/mobilenet_v2_kd.pth": "7469cc9159d00272a96d35ac6de3466b918d67f2bf9476d323b6e66b6b8b388e",
+    "models/nas_best.onnx": "9a090bc0490e3b06a24ff95a76667d3641cc7e6ecd6cc91d8b7ebb7dbea121a3",
+    "models/nas_best.pt": "58d502d5829e56f06a2395aa76d984279a16e24f03dab3077f7f3b0146c96435",
+    "models/nas_best.pth": "018c34206e75f15fc5b2c82cdb4cc1221d7f5275042727baa56c11cb6331cf88",
+    "models/squeezenet_baseline.onnx": "2ee4bf2ff3e8be43cb3a6c6c5f7580484d3253b825fe736b9a7580752b798252",
+    "models/squeezenet_baseline.pt": "53b40196d0a532138461dc17d3986c66db8254b188cecce60bc3c86b68440832",
+    "models/squeezenet_baseline.pth": "f2f0ca81417bd5c968c70be8e1a70c7733bc05669ffe9b5c6058cb4d3a945bb8",
+    "models/squeezenet_kd.onnx": "be2acb04c1bf4fb4f743c2b15fb3af1d6de1f741b5adf2f665582dded79aaf47",
+    "models/squeezenet_kd.pt": "f70c7e87b641e3c334d288849bb734875cd439db4daca118c6fc005767f7a2a0",
+    "models/squeezenet_kd.pth": "ea382063d8dee1146ad25ecbb6dc4a5aec9516849ad15c00d24d2fea4d4d00c1",
+    "models/teacher_resnet50.pth": "6b750c0b64c90b36fb34352d2ad9df6c058ea2c058f74d68299c4e9bae937486"
+  },
+  "cpu_prediction_rows": 70000,
+  "onnx_prediction_rows": 70000,
+  "latency_rows": 1400,
+  "nas_candidates": 18,
+  "nas_feasible": 16
+}

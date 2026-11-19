@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "report_pages": 15,
+  "cpu_prediction_rows": 70000,
+  "latency_rows": 1400,
+  "gpu_vs_cpu_changed_predictions": {
+    "mobilenet_v2_baseline": 0,
+    "mobilenet_v2_kd": 0,
+    "squeezenet_baseline": 0,
+    "squeezenet_kd": 0,
+    "efficientnet_lite0_baseline": 0,
+    "efficientnet_lite0_kd": 0
+  },
+  "pdf_sha256": "09a0d549df03371bc0a1e156a30922f412c100862d1eeb205d66602537f33cee",
+  "checks": [
+    "mobilenet_v2_baseline: full prediction counts, accuracy, storage and timing statistics agree",
+    "mobilenet_v2_kd: full prediction counts, accuracy, storage and timing statistics agree",
+    "squeezenet_baseline: full prediction counts, accuracy, storage and timing statistics agree",
+    "squeezenet_kd: full prediction counts, accuracy, storage and timing statistics agree",
+    "efficientnet_lite0_baseline: full prediction counts, accuracy, storage and timing statistics agree",
+    "efficientnet_lite0_kd: full prediction counts, accuracy, storage and timing statistics agree",
+    "nas_best: full prediction counts, accuracy, storage and timing statistics agree",
+    "Report contains both questions, worked loss calculation, actual results and conclusions",
+    "All five real Colab screenshot assets are valid JPEGs",
+    "No ZIP deliverable; required PDF and repository artifacts present"
+  ]
+}

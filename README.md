@@ -182,3 +182,17 @@ compare the two percentages as if they measured the same task.
 Submit the GitHub repository link and `22i-2149_A.pdf` to Assignment 4 on Classroom.
 The latest instructor announcements supersede the older ZIP instruction on the
 assignment cover. **No compressed folder is submitted.**
+
+## Final measured results (19 November 2026)
+
+|Model|Test accuracy|Median CPU ms|Deployment MiB|
+|---|---:|---:|---:|
+|mobilenet_v2_baseline|73.27%|2.1736|9.49|
+|mobilenet_v2_kd|74.56%|1.9154|9.48|
+|squeezenet_baseline|55.93%|0.5925|3.07|
+|squeezenet_kd|57.10%|0.5802|3.07|
+|efficientnet_lite0_baseline|69.33%|2.3431|13.95|
+|efficientnet_lite0_kd|74.09%|2.4495|13.94|
+|nas_best|68.23%|0.2118|0.11|
+
+All seven ONNX exports passed full-test CPU evaluation and numerical parity checks. Verification and delivery audit: PASS. See results/ for all raw predictions and timing samples.
