@@ -25,6 +25,8 @@ if __name__=='__main__':
         assert o['max_absolute_logit_difference']<.01
         checks.append(name+': eager/TorchScript reload, test predictions, accuracy, latency samples and full-test ONNX validation pass')
     q1=json.loads((results/'q1_results.json').read_text())
+    for filename,digest in q1['model_sha256'].items():
+        assert hashlib.sha256((ROOT/'models'/filename).read_bytes()).hexdigest()==digest
     for r in q1['summaries']:
         pp=q1['predictions'][r['model']];yy=q1['true_labels'];assert len(pp)==10000 and sum(a==b for a,b in zip(pp,yy))==r['correct']
     teacher=load_classifier(ROOT/'models/teacher_resnet50.pth')
@@ -45,7 +47,7 @@ if __name__=='__main__':
     torch.manual_seed(2149);fresh=SearchCNN(chosen['config'])
     initial_hash=hashlib.sha256(b''.join(p.detach().numpy().tobytes() for p in fresh.parameters())).hexdigest()
     assert initial_hash==ck['initial_parameter_sha256']==final['initial_parameter_sha256']
-    checks.extend(['Teacher is the standard 23,712,932-parameter ResNet-50 with a 100-class head','Six distinct student checkpoints: hard-label baselines and KD checkpoints with training-only adapters','All Colab test prediction counts agree with saved summaries','NAS selects the highest-validation feasible candidate; every rejection follows measured limits','Selected NAS architecture is freshly retrained for 15 epochs and meets final measured limits'])
+    checks.extend(['All seven training checkpoint SHA-256 hashes match the actual Colab manifest','Teacher is the standard 23,712,932-parameter ResNet-50 with a 100-class head','Six distinct student checkpoints: hard-label baselines and KD checkpoints with training-only adapters','All Colab test prediction counts agree with saved summaries','NAS selects the highest-validation feasible candidate; every rejection follows measured limits','Selected NAS architecture is freshly retrained for 15 epochs and meets final measured limits'])
     hashes={str(p.relative_to(ROOT)).replace('\\','/'):hashlib.sha256(p.read_bytes()).hexdigest() for p in (ROOT/'models').iterdir() if p.is_file()}
     report=dict(status='PASS',checks=checks,model_sha256=hashes,cpu_prediction_rows=len(pred),onnx_prediction_rows=len(onnx_pred),latency_rows=len(times),nas_candidates=len(history),nas_feasible=len(feasible))
     (results/'verification.json').write_text(json.dumps(report,indent=2));print(json.dumps(report,indent=2))

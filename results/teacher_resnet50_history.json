@@ -1,0 +1,167 @@
+[
+  {
+    "stage": "teacher_resnet50",
+    "epoch": 1,
+    "loss": 1.4140510324266222,
+    "hard_loss": 1.4140510324266222,
+    "soft_loss": 0.0,
+    "feature_loss": 0.0,
+    "train_accuracy_pct": 61.92,
+    "validation_accuracy_pct": 73.7,
+    "seconds": 23.430983310999977
+  },
+  {
+    "stage": "teacher_resnet50",
+    "epoch": 2,
+    "loss": 0.6049474693616231,
+    "hard_loss": 0.6049474693616231,
+    "soft_loss": 0.0,
+    "feature_loss": 0.0,
+    "train_accuracy_pct": 81.55777777777777,
+    "validation_accuracy_pct": 76.22,
+    "seconds": 21.596441034999998
+  },
+  {
+    "stage": "teacher_resnet50",
+    "epoch": 3,
+    "loss": 0.3622799075073666,
+    "hard_loss": 0.3622799075073666,
+    "soft_loss": 0.0,
+    "feature_loss": 0.0,
+    "train_accuracy_pct": 88.55555555555556,
+    "validation_accuracy_pct": 77.02,
+    "seconds": 22.09342201200002
+  },
+  {
+    "stage": "teacher_resnet50",
+    "epoch": 4,
+    "loss": 0.23152511379453872,
+    "hard_loss": 0.23152511379453872,
+    "soft_loss": 0.0,
+    "feature_loss": 0.0,
+    "train_accuracy_pct": 92.7088888888889,
+    "validation_accuracy_pct": 77.48,
+    "seconds": 22.644655554999986
+  },
+  {
+    "stage": "teacher_resnet50",
+    "epoch": 5,
+    "loss": 0.13872528972824413,
+    "hard_loss": 0.13872528972824413,
+    "soft_loss": 0.0,
+    "feature_loss": 0.0,
+    "train_accuracy_pct": 95.74,
+    "validation_accuracy_pct": 78.9,
+    "seconds": 22.951726990999987
+  },
+  {
+    "stage": "teacher_resnet50",
+    "epoch": 6,
+    "loss": 0.08712971437507205,
+    "hard_loss": 0.08712971437507205,
+    "soft_loss": 0.0,
+    "feature_loss": 0.0,
+    "train_accuracy_pct": 97.44,
+    "validation_accuracy_pct": 79.36,
+    "seconds": 23.561869252000008
+  },
+  {
+    "stage": "teacher_resnet50",
+    "epoch": 7,
+    "loss": 0.05374146660963694,
+    "hard_loss": 0.05374146660963694,
+    "soft_loss": 0.0,
+    "feature_loss": 0.0,
+    "train_accuracy_pct": 98.47777777777777,
+    "validation_accuracy_pct": 79.88,
+    "seconds": 23.87100927299997
+  },
+  {
+    "stage": "teacher_resnet50",
+    "epoch": 8,
+    "loss": 0.03156275950835811,
+    "hard_loss": 0.03156275950835811,
+    "soft_loss": 0.0,
+    "feature_loss": 0.0,
+    "train_accuracy_pct": 99.18,
+    "validation_accuracy_pct": 80.62,
+    "seconds": 23.608612719000007
+  },
+  {
+    "stage": "teacher_resnet50",
+    "epoch": 9,
+    "loss": 0.021483574495712917,
+    "hard_loss": 0.021483574495712917,
+    "soft_loss": 0.0,
+    "feature_loss": 0.0,
+    "train_accuracy_pct": 99.51555555555555,
+    "validation_accuracy_pct": 80.42,
+    "seconds": 23.495865867999896
+  },
+  {
+    "stage": "teacher_resnet50",
+    "epoch": 10,
+    "loss": 0.014927394624551137,
+    "hard_loss": 0.014927394624551137,
+    "soft_loss": 0.0,
+    "feature_loss": 0.0,
+    "train_accuracy_pct": 99.68222222222222,
+    "validation_accuracy_pct": 80.92,
+    "seconds": 23.569120906999956
+  },
+  {
+    "stage": "teacher_resnet50",
+    "epoch": 11,
+    "loss": 0.010015614152285787,
+    "hard_loss": 0.010015614152285787,
+    "soft_loss": 0.0,
+    "feature_loss": 0.0,
+    "train_accuracy_pct": 99.83777777777777,
+    "validation_accuracy_pct": 80.76,
+    "seconds": 23.735930376000056
+  },
+  {
+    "stage": "teacher_resnet50",
+    "epoch": 12,
+    "loss": 0.008181714121500651,
+    "hard_loss": 0.008181714121500651,
+    "soft_loss": 0.0,
+    "feature_loss": 0.0,
+    "train_accuracy_pct": 99.86444444444444,
+    "validation_accuracy_pct": 80.94,
+    "seconds": 23.71035839700005
+  },
+  {
+    "stage": "teacher_resnet50",
+    "epoch": 13,
+    "loss": 0.007247988422960043,
+    "hard_loss": 0.007247988422960043,
+    "soft_loss": 0.0,
+    "feature_loss": 0.0,
+    "train_accuracy_pct": 99.90444444444445,
+    "validation_accuracy_pct": 80.84,
+    "seconds": 23.71173934500007
+  },
+  {
+    "stage": "teacher_resnet50",
+    "epoch": 14,
+    "loss": 0.006593885832528274,
+    "hard_loss": 0.006593885832528274,
+    "soft_loss": 0.0,
+    "feature_loss": 0.0,
+    "train_accuracy_pct": 99.91777777777777,
+    "validation_accuracy_pct": 81.04,
+    "seconds": 23.74197032999996
+  },
+  {
+    "stage": "teacher_resnet50",
+    "epoch": 15,
+    "loss": 0.0060373073048889635,
+    "hard_loss": 0.0060373073048889635,
+    "soft_loss": 0.0,
+    "feature_loss": 0.0,
+    "train_accuracy_pct": 99.94222222222223,
+    "validation_accuracy_pct": 80.76,
+    "seconds": 23.740310158999932
+  }
+]

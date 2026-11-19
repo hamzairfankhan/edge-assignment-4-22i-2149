@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "illustrative_three_class_example": true,
+  "hard_loss": 0.3063558042049408,
+  "scaled_soft_loss": 0.3857259750366211,
+  "feature_loss": 0.4000000059604645,
+  "weighted_total": 0.746040940284729,
+  "student_gradients_finite": true
+}
